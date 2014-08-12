@@ -1,0 +1,15 @@
+C:\Estudos\FrontDeskSolution\SharedDatabaseManagement\bin\Debug\SharedDatabaseManagement.dll.config
+C:\Estudos\FrontDeskSolution\SharedDatabaseManagement\bin\Debug\SharedDatabaseManagement.dll
+C:\Estudos\FrontDeskSolution\SharedDatabaseManagement\bin\Debug\SharedDatabaseManagement.pdb
+C:\Estudos\FrontDeskSolution\SharedDatabaseManagement\bin\Debug\EntityFramework.dll
+C:\Estudos\FrontDeskSolution\SharedDatabaseManagement\bin\Debug\EntityFramework.SqlServer.dll
+C:\Estudos\FrontDeskSolution\SharedDatabaseManagement\bin\Debug\FrontDesk.SharedKernel.dll
+C:\Estudos\FrontDeskSolution\SharedDatabaseManagement\bin\Debug\StructureMap.dll
+C:\Estudos\FrontDeskSolution\SharedDatabaseManagement\bin\Debug\FrontDesk.SharedKernel.pdb
+C:\Estudos\FrontDeskSolution\SharedDatabaseManagement\bin\Debug\EntityFramework.xml
+C:\Estudos\FrontDeskSolution\SharedDatabaseManagement\bin\Debug\EntityFramework.SqlServer.xml
+C:\Estudos\FrontDeskSolution\SharedDatabaseManagement\bin\Debug\StructureMap.pdb
+C:\Estudos\FrontDeskSolution\SharedDatabaseManagement\bin\Debug\StructureMap.xml
+C:\Estudos\FrontDeskSolution\SharedDatabaseManagement\obj\Debug\VetOffice.SharedDatabase.csprojResolveAssemblyReference.cache
+C:\Estudos\FrontDeskSolution\SharedDatabaseManagement\obj\Debug\SharedDatabaseManagement.dll
+C:\Estudos\FrontDeskSolution\SharedDatabaseManagement\obj\Debug\SharedDatabaseManagement.pdb
