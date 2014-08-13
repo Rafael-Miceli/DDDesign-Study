@@ -9,13 +9,11 @@ namespace ClientPatientManagement.Data
      
      
         public CrudContext()
-        : base("name=VetOfficeContext")
+        : base("name=OfficeContext")
         {
         }
 
-        public DbSet<Patient> Patients { get; set; }
         public DbSet<Client> Clients { get; set; }
-        public DbSet<Doctor> Doctors { get; set; }
         public DbSet<Room> Rooms { get; set; }
     }
 
@@ -25,44 +23,26 @@ namespace ClientPatientManagement.Data
         {
             base.Seed(context);
 
-            // Add Doctors
-            var drSmith = new Doctor { Name = "Dr. Smith" };
-            var drWho = new Doctor { Name = "Dr. Who" };
-            var drMcDreamy = new Doctor { Name = "Dr. McDreamy" };
-            context.Doctors.Add(drSmith);
-            context.Doctors.Add(drWho);
-            context.Doctors.Add(drMcDreamy);
-
             var clientSteve = new Client
             {
                 FullName = "Steve Smith",
                 PreferredName = "Steve",
-                Salutation = "Mr.",
-                PreferredDoctorId = drSmith.Id
+                Salutation = "Mr."
             };
             context.Clients.Add(clientSteve);
-            context.Patients.Add(new Patient(clientSteve) {Gender = Gender.Male, Name = "Darwin"});
-            context.Patients.Add(new Patient(clientSteve)
-            {
-                Gender = Gender.Female,
-                Name = "Rumor",
-                PreferredDoctorId = drWho.Id
-            });
 
             var clientJulie = new Client
             {
                 FullName = "Julia Lerman",
                 PreferredName = "Julie",
-                Salutation = "Mrs.",
-                PreferredDoctorId = drMcDreamy.Id
+                Salutation = "Mrs."
             };
             context.Clients.Add(clientJulie);
-            context.Patients.Add(new Patient(clientJulie) {Gender = Gender.Male, Name = "Sampson"});
 
             // add Rooms
             for (int i = 0; i < 5; i++)
             {
-                var room = new Room { Name = string.Format("Exam Room {0}", i+1) };
+                var room = new Room { Name = string.Format("Room {0}", i+1) };
                 context.Rooms.Add(room);
             }
         }

@@ -18,6 +18,6 @@ C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\FrontDesk.SharedKernel\bi
 C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\FrontDesk.SharedKernel\bin\Debug\StructureMap.dll
 C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\FrontDesk.SharedKernel\bin\Debug\StructureMap.pdb
 C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\FrontDesk.SharedKernel\bin\Debug\StructureMap.xml
-C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\FrontDesk.SharedKernel\obj\Debug\FrontDesk.SharedKernel.csprojResolveAssemblyReference.cache
 C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\FrontDesk.SharedKernel\obj\Debug\FrontDesk.SharedKernel.dll
 C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\FrontDesk.SharedKernel\obj\Debug\FrontDesk.SharedKernel.pdb
+C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\FrontDesk.SharedKernel\obj\Debug\FrontDesk.SharedKernel.csprojResolveAssemblyReference.cache

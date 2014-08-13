@@ -245,7 +245,6 @@ C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\FrontDesk.Web\bin\Appoint
 C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\FrontDesk.Web\bin\ClientPatientManagement.Core.pdb
 C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\FrontDesk.Web\bin\ClientPatientManagement.Data.pdb
 C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\FrontDesk.Web\bin\FrontDesk.SharedKernel.pdb
-C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\FrontDesk.Web\bin\Common.pdb
 C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\FrontDesk.Web\bin\EntityFramework.xml
 C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\FrontDesk.Web\bin\EntityFramework.SqlServer.xml
 C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\FrontDesk.Web\bin\Microsoft.AspNet.SignalR.Core.xml

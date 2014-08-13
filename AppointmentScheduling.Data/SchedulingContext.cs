@@ -6,13 +6,11 @@ namespace AppointmentScheduling.Data
     public class SchedulingContext : DbContext
     {
         public SchedulingContext()
-        : base("name=VetOfficeContext")
+        : base("name=OfficeContext")
         {
         }
         public DbSet<Schedule> Schedules { get; set; }
         public DbSet<Client> Clients { get; set; }
-        public DbSet<Doctor> Doctors { get; set; }
-        public DbSet<Patient> Patients { get; set; }
         public DbSet<Appointment> Appointments { get; set; }
         public DbSet<AppointmentType> AppointmentTypes { get; set; }
 

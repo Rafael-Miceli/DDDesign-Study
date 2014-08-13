@@ -27,10 +27,6 @@ function renderPatientTemplate(data) {
     return kendo.Template.compile($('#patient-template').html())(data);
 }
 
-function onPatientChange(e) {
-    var patient = this.dataItem(e.sender.selectedIndex);
-    headerViewModel.set("selectedPatient", patient);
-}
 
 $(document).ready(function () {
     kendo.bind($("header"), headerViewModel);
@@ -42,7 +38,7 @@ $(document).ready(function () {
             top: 200,
             left: 200
         },
-        title: "Choose Patient",
+        title: "Escolha o cliente",
         visible: false,
         activate: function () {
             $("#client").select();
@@ -50,7 +46,7 @@ $(document).ready(function () {
     }).data("kendoWindow");
 
     headerViewModel.set("selectedClient", $.parseJSON(sessionStorage.getItem("client")));
-    headerViewModel.set("selectedPatient", $.parseJSON(sessionStorage.getItem("patient")));
+    //headerViewModel.set("selectedPatient", $.parseJSON(sessionStorage.getItem("patient")));
 
     var clientInput = $("#client").kendoAutoComplete({
         select: onSelect,
@@ -73,14 +69,11 @@ $(document).ready(function () {
         $(".client-picker").css("border", "");
     });
 
-    $("#patientDropDown").kendoDropDownList({
-        change: onPatientChange
-    });
 
     $("#selectPatientButton").click(function (e) {
         if (typeof (Storage) !== "undefined") {
             sessionStorage["client"] = JSON.stringify(headerViewModel.selectedClient);
-            sessionStorage["patient"] = JSON.stringify(headerViewModel.selectedPatient);
+            //sessionStorage["patient"] = JSON.stringify(headerViewModel.selectedPatient);
         }
         e.preventDefault();
         clientInput.data("kendoAutoComplete").value('');

@@ -11,11 +11,6 @@ namespace FrontDesk.Web.Controllers
             return View();
         }
 
-        public ActionResult Doctors()
-        {
-            return View();
-        }
-
         public ActionResult Rooms()
         {
             return View();

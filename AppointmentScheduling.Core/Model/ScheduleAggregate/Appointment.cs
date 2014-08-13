@@ -9,9 +9,7 @@ namespace AppointmentScheduling.Core.Model.ScheduleAggregate
     {
         public Guid ScheduleId { get; private set; }
         public int ClientId { get; private set; }
-        public int PatientId { get; private set; }
         public int RoomId { get; private set; }
-        public int? DoctorId { get; private set; }
         public int AppointmentTypeId { get; private set; }
         public DateTimeRange TimeRange { get; private set; }
         public string Title { get; set; }
@@ -66,23 +64,20 @@ namespace AppointmentScheduling.Core.Model.ScheduleAggregate
 
         // Factory method for creation
         public static Appointment Create(Guid scheduleId, 
-            int clientId, int patientId, 
+            int clientId, 
             int roomId, DateTime startTime, DateTime endTime, 
-            int appointmentTypeId, int? doctorId, string title)
+            int appointmentTypeId, string title)
         {
             Guard.ForLessEqualZero(clientId, "clientId");
-            Guard.ForLessEqualZero(patientId, "patientId");
             Guard.ForLessEqualZero(roomId, "roomId");
             Guard.ForLessEqualZero(appointmentTypeId, "appointmentTypeId");
             Guard.ForNullOrEmpty(title, "title");
             var appointment = new Appointment(Guid.NewGuid());
             appointment.ScheduleId = scheduleId;
-            appointment.PatientId = patientId;
             appointment.ClientId = clientId;
             appointment.RoomId = roomId;
             appointment.TimeRange = new DateTimeRange(startTime, endTime);
             appointment.AppointmentTypeId = appointmentTypeId;
-            appointment.DoctorId = doctorId;
             appointment.Title = title;
             return appointment;
         }

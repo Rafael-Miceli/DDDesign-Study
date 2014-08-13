@@ -42,7 +42,6 @@ C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\AppointmentScheduling.Dat
 C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\AppointmentScheduling.Data\bin\Debug\StructureMap.dll
 C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\AppointmentScheduling.Data\bin\Debug\AppointmentScheduling.Core.pdb
 C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\AppointmentScheduling.Data\bin\Debug\FrontDesk.SharedKernel.pdb
-C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\AppointmentScheduling.Data\bin\Debug\Common.pdb
 C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\AppointmentScheduling.Data\bin\Debug\EntityFramework.xml
 C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\AppointmentScheduling.Data\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\AppointmentScheduling.Data\bin\Debug\StructureMap.pdb

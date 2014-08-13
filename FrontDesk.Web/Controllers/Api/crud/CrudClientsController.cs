@@ -49,7 +49,6 @@ namespace FrontDesk.Web.Controllers.Api.Crud
             clientToUpdate.FullName = client.FullName;
             clientToUpdate.Salutation = client.Salutation;
             clientToUpdate.PreferredName = client.PreferredName;
-            clientToUpdate.PreferredDoctorId = client.PreferredDoctorId;
             _clientRepository.Update(clientToUpdate);
         }
 

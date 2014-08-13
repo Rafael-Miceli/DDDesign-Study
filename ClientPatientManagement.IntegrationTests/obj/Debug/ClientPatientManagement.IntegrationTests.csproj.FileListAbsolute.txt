@@ -48,16 +48,11 @@ C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\ClientPatientManagement.I
 C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\ClientPatientManagement.IntegrationTests\bin\Debug\EntityFramework.dll
 C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\ClientPatientManagement.IntegrationTests\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\ClientPatientManagement.IntegrationTests\bin\Debug\nunit.framework.dll
-C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\ClientPatientManagement.IntegrationTests\bin\Debug\FrontDesk.SharedKernel.dll
-C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\ClientPatientManagement.IntegrationTests\bin\Debug\StructureMap.dll
 C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\ClientPatientManagement.IntegrationTests\bin\Debug\ClientPatientManagement.Core.pdb
 C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\ClientPatientManagement.IntegrationTests\bin\Debug\ClientPatientManagement.Data.pdb
 C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\ClientPatientManagement.IntegrationTests\bin\Debug\EntityFramework.xml
 C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\ClientPatientManagement.IntegrationTests\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\ClientPatientManagement.IntegrationTests\bin\Debug\nunit.framework.xml
-C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\ClientPatientManagement.IntegrationTests\bin\Debug\FrontDesk.SharedKernel.pdb
-C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\ClientPatientManagement.IntegrationTests\bin\Debug\StructureMap.pdb
-C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\ClientPatientManagement.IntegrationTests\bin\Debug\StructureMap.xml
 C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\ClientPatientManagement.IntegrationTests\obj\Debug\ClientPatientManagement.IntegrationTests.csprojResolveAssemblyReference.cache
 C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\ClientPatientManagement.IntegrationTests\obj\Debug\ClientPatientManagement.IntegrationTests.dll
 C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\ClientPatientManagement.IntegrationTests\obj\Debug\ClientPatientManagement.IntegrationTests.pdb

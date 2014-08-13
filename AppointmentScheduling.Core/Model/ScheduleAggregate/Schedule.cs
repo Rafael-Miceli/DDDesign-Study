@@ -79,8 +79,7 @@ namespace AppointmentScheduling.Core.Model.ScheduleAggregate
             foreach (var appointment in _appointments)
             {
                 var potentiallyConflictingAppointments = _appointments
-                    .Where(a => a.PatientId == appointment.PatientId &&
-                    a.TimeRange.Overlaps(appointment.TimeRange) &&
+                    .Where(a => a.TimeRange.Overlaps(appointment.TimeRange) &&
                     a.Id != appointment.Id &&
                     a.State != TrackingState.Deleted).ToList();
 

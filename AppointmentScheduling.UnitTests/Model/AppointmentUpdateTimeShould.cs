@@ -11,11 +11,9 @@ namespace AppointmentScheduling.UnitTests.Model
     {
         private Guid testScheduleId = Guid.NewGuid();
         private Appointment testAppointment1;
-        private int testPatientId = 123;
         private int testClientId = 456;
         private int testRoomId = 567;
         private int testAppointmentTypeId = 1;
-        private int testDoctorId = 2;
         private DateTime testStartTime = new DateTime(2014, 6, 9, 9, 0, 0);
         private DateTime testEndTime = new DateTime(2014, 6, 9, 9, 30, 0);
         private DateTimeRange newAppointmentTimeRange = new DateTimeRange(new DateTime(2014, 6, 9, 10, 0, 0), TimeSpan.FromHours(1));
@@ -26,8 +24,8 @@ namespace AppointmentScheduling.UnitTests.Model
             DomainEvents.ClearCallbacks();
 
             testAppointment1 = Appointment.Create(testScheduleId,
-                testClientId, testPatientId, testRoomId, testStartTime, testEndTime,
-                testAppointmentTypeId, testDoctorId, "testAppointment1");
+                testClientId, testRoomId, testStartTime, testEndTime,
+                testAppointmentTypeId,  "testAppointment1");
 
         }
 

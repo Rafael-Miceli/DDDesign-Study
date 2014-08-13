@@ -26,7 +26,6 @@ C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\ClientPatientManagement.C
 C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\ClientPatientManagement.Core\bin\Debug\FrontDesk.SharedKernel.dll
 C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\ClientPatientManagement.Core\bin\Debug\StructureMap.dll
 C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\ClientPatientManagement.Core\bin\Debug\FrontDesk.SharedKernel.pdb
-C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\ClientPatientManagement.Core\bin\Debug\Common.pdb
 C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\ClientPatientManagement.Core\bin\Debug\StructureMap.pdb
 C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\ClientPatientManagement.Core\bin\Debug\StructureMap.xml
 C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\ClientPatientManagement.Core\obj\Debug\ClientPatientManagement.Core.csprojResolveAssemblyReference.cache

@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Web.Http;
 using AppointmentScheduling.Data;
@@ -13,18 +14,21 @@ namespace FrontDesk.Web.Controllers.Api
         // GET api/values
         public IEnumerable<ClientViewModel> Get()
         {
-            return db.Clients.Select(c => new ClientViewModel()
+            try
             {
-                ClientId = c.Id,
-                FullName = c.FullName,
-                Patients = c.Patients.Select(p => new PatientViewModel()
-                {
-                    Name = p.Name,
-                    PatientId = p.Id,
-                    PreferredDoctorId=p.PreferredDoctorId.Value
-                }).OrderBy(p => p.Name)
-            })
-            .OrderBy(c => c.FullName);
+                IEnumerable<ClientViewModel> clientViewModels = null;
+
+                var clients = db.Clients.OrderBy(c => c.FullName);
+
+                return clientViewModels;
+
+            }
+            catch (Exception)
+            {
+                
+                throw;
+            }
+            
 
         }
 

@@ -52,10 +52,7 @@
     <Compile Include="Model\ScheduleAggregate\AppointmentType.cs" />
     <Compile Include="Model\ScheduleAggregate\Client.cs" />
     <Compile Include="Model\ScheduleAggregate\Room.cs" />
-    <Compile Include="Model\ScheduleAggregate\Doctor.cs" />
     <Compile Include="Model\Events\AppointmentUpdatedEvent.cs" />
-    <Compile Include="Model\ScheduleAggregate\Patient.cs" />
-    <Compile Include="Model\ValueObjects\AnimalType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\RelayAppointmentScheduledService.cs" />
   </ItemGroup>

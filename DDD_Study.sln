@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppointmentScheduling.Integ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedKernel.UnitTests", "SharedKernel.UnitTests\SharedKernel.UnitTests.csproj", "{358813FB-24F0-4370-AE45-8B7B7E667F38}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrontDeskTests", "FrontDeskTests\FrontDeskTests.csproj", "{0C6EB1D3-A746-4F6F-9AC9-9F998E01BA39}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -109,6 +111,10 @@ Global
 		{358813FB-24F0-4370-AE45-8B7B7E667F38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{358813FB-24F0-4370-AE45-8B7B7E667F38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{358813FB-24F0-4370-AE45-8B7B7E667F38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C6EB1D3-A746-4F6F-9AC9-9F998E01BA39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C6EB1D3-A746-4F6F-9AC9-9F998E01BA39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C6EB1D3-A746-4F6F-9AC9-9F998E01BA39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C6EB1D3-A746-4F6F-9AC9-9F998E01BA39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

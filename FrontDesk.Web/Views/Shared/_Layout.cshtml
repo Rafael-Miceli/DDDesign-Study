@@ -37,11 +37,11 @@
         <div id="window">
             <div class="k-content">
                 <div class="editor-label">
-                    @Html.Label("Client")
+                    @Html.Label("Cliente")
                 </div>
                 <div class="editor-field">
                     <input type="text" id="client" style="width: 400px;" />
-                    <p>Start typing to find a client</p>
+                    <p>Digite para buscar um cliente</p>
                 </div>
             </div>
             <div id="patientSelection">
@@ -55,23 +55,21 @@
                       data-bind="source: selectedClient.Patients, events:{dataBound:onPatientDataBound}"></select>
                 </div>
             </div>
-            <input type="button" value="Select" id="selectPatientButton" />
+            <input type="button" value="Selecione" id="selectPatientButton" />
         </div>
         <div class="content-wrapper">
             <div class="client-picker">
-                <span class="label">Client:</span> <span data-bind="text: selectedClient.FullName"></span><br />
-                <span class="label">Patient:</span> <span data-bind="text: selectedPatient.Name"></span><br />
+                <span class="label">Cliente:</span> <span data-bind="text: selectedClient.FullName"></span><br />
             </div>
             <div class="site-title">
-                <a href="~/">Vet Manager</a>
+                <a href="~/">Gerenciador de Salas</a>
             </div>
             <div class="menu">
                 <nav>
                     <ul id="menu">
-                        <li>@Html.ActionLink("Schedule", "Index", "Home", new { area = "" }, null)</li>
-                        <li>@Html.ActionLink("Clients", "Clients", "Home", new { area = "" }, null)</li>
-                        <li>@Html.ActionLink("Doctors", "Doctors", "Home", new { area = "" }, null)</li>
-                        <li>@Html.ActionLink("Rooms", "Rooms", "Home", new { area = "" }, null)</li>
+                        <li>@Html.ActionLink("Agenda", "Index", "Home", new { area = "" }, null)</li>
+                        <li>@Html.ActionLink("Clientes", "Clients", "Home", new { area = "" }, null)</li>
+                        <li>@Html.ActionLink("Salas", "Rooms", "Home", new { area = "" }, null)</li>
                     </ul>
                 </nav>
             </div>

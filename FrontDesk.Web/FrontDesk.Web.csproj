@@ -200,10 +200,8 @@
     <Compile Include="Controllers\Api\AppointmentTypesController.cs" />
     <Compile Include="Controllers\Api\Crud\CrudClientsController.cs" />
     <Compile Include="Controllers\Api\Crud\CrudRoomsController.cs" />
-    <Compile Include="Controllers\Api\Crud\CrudDoctorsController.cs" />
     <Compile Include="Controllers\Api\ClientsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\Api\DoctorsController.cs" />
     <Compile Include="DependencyResolution\IoC.cs" />
     <Compile Include="DependencyResolution\SignalRSmDependencyResolver.cs" />
     <Compile Include="DependencyResolution\StructureMapDependencyResolver.cs" />
@@ -361,7 +359,6 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\Doctors.cshtml" />
     <Content Include="Views\Home\Rooms.cshtml" />
     <Content Include="Views\Home\Clients.cshtml" />
   </ItemGroup>

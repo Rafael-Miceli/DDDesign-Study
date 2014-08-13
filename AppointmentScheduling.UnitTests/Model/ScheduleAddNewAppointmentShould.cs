@@ -16,11 +16,9 @@ namespace AppointmentScheduling.UnitTests.Model
         private DateTimeRange testDateTimeRange;
         private Appointment testAppointment1;
         private Appointment testAppointment2;
-        private int testPatientId = 123;
         private int testClientId = 456;
         private int testRoomId = 567;
         private int testAppointmentTypeId = 1;
-        private int testDoctorId = 2;
         private DateTime testStartTime = new DateTime(2014, 6, 9, 9, 0, 0);
         private DateTime testEndTime = new DateTime(2014, 6, 9, 9, 30, 0);
 
@@ -32,12 +30,12 @@ namespace AppointmentScheduling.UnitTests.Model
             testDateTimeRange = new DateTimeRange(new DateTime(2014, 6, 9), new DateTime(2014, 6, 16));
 
             testAppointment1 = Appointment.Create(testScheduleId,
-                testClientId, testPatientId, testRoomId, testStartTime, testEndTime,
-                testAppointmentTypeId, testDoctorId, "testAppointment1");
+                testClientId, testRoomId, testStartTime, testEndTime,
+                testAppointmentTypeId, "testAppointment1");
 
             testAppointment2 = Appointment.Create(testScheduleId,
-                testClientId, testPatientId, testRoomId, testStartTime, testEndTime,
-                testAppointmentTypeId, testDoctorId, "testAppointment2");
+                testClientId, testRoomId, testStartTime, testEndTime,
+                testAppointmentTypeId, "testAppointment2");
 
         }
 
@@ -87,8 +85,8 @@ namespace AppointmentScheduling.UnitTests.Model
 
             // same patient in a different room at same time
             int differentRoomId = 123;
-            var conflictingAppointment = Appointment.Create(testScheduleId, testAppointment1.ClientId, testAppointment1.PatientId,
-                differentRoomId, testStartTime, testEndTime, testAppointmentTypeId, testDoctorId, "CONFLICTING APPOINTMENT");
+            var conflictingAppointment = Appointment.Create(testScheduleId, testAppointment1.ClientId, differentRoomId, testStartTime, testEndTime, testAppointmentTypeId, 
+                "CONFLICTING APPOINTMENT");
 
             schedule.AddNewAppointment(conflictingAppointment);
 

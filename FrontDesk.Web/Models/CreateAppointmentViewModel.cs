@@ -7,11 +7,9 @@ namespace FrontDesk.Web.Models
 {
     public class CreateAppointmentViewModel
     {
-        public int PatientId { get; set; }
         public int ClientId { get; set; }
         public DateTime DateOfAppointment { get; set; }
         public TimeSpan Duration { get; set; }
-        public Guid SelectedDoctor { get; set; }
         public string Details { get; set; }
     }
 
@@ -19,15 +17,8 @@ namespace FrontDesk.Web.Models
     {
         public int ClientId { get; set; }
         public string FullName { get; set; }
-        public IEnumerable<PatientViewModel> Patients { get; set; }
     }
 
-    public class PatientViewModel
-    {
-        public int PatientId { get; set; }
-        public String Name { get; set; }
-        public int? PreferredDoctorId { get; set; }
-    }
 
     public class AppointmentTypeViewModel
     {
@@ -42,10 +33,7 @@ namespace FrontDesk.Web.Models
         public Guid AppointmentId { get; set; }
         //public int AppointmentTypeId { get; set; }
         public int RoomId { get; set; }
-        public int? DoctorId { get; set; }
         public int ClientId { get; set;  }
-        public int PatientId { get; set; }
-        public string PatientName { get; set; }
         public DateTime Start { get; set; }
         public DateTime End { get; set; }
         public object StartTimezone { get; set; }

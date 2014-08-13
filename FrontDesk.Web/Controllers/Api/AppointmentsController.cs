@@ -57,9 +57,9 @@ namespace FrontDesk.Web.Controllers.Api
             var schedule = _scheduleRepository.GetScheduleForDate(_settings.CompanyId, _settings.TestDate);
 
             var newAppointment = Appointment.Create(schedule.Id,
-                appointment.ClientId, appointment.PatientId,
-                appointment.RoomId, appointment.Start.ToLocalTime(), appointment.End.ToLocalTime(), appointment.AppointmentType.AppointmentTypeId, appointment.DoctorId,
-                appointment.Title);
+                appointment.ClientId,
+                appointment.RoomId, appointment.Start.ToLocalTime(), appointment.End.ToLocalTime(),
+                appointment.AppointmentType.AppointmentTypeId, appointment.Title);
             schedule.AddNewAppointment(newAppointment);
             _scheduleRepository.Update(schedule);
         }
@@ -100,7 +100,7 @@ namespace FrontDesk.Web.Controllers.Api
     {
         private SchedulingContext db = new SchedulingContext();
         private CrudContext _crudContext = new CrudContext();
-        private List<ClientPatientManagement.Core.Model.Patient> _patients = new List<ClientPatientManagement.Core.Model.Patient>();
+        //private List<ClientPatientManagement.Core.Model.Patient> _patients = new List<ClientPatientManagement.Core.Model.Patient>();
 
         private AppointmentTypeViewModel CreateAppointmentType(int id)
         {
@@ -121,9 +121,6 @@ namespace FrontDesk.Web.Controllers.Api
                 AppointmentId = appt.Id,
                 AppointmentType = CreateAppointmentType(appt.AppointmentTypeId),
                 ClientId = appt.ClientId,
-                DoctorId = appt.DoctorId,
-                PatientId = appt.PatientId,
-                PatientName = GetPatientName(appt.PatientId),
                 RoomId = appt.RoomId,
                 Start = appt.TimeRange.Start,
                 End = appt.TimeRange.End,
@@ -135,15 +132,15 @@ namespace FrontDesk.Web.Controllers.Api
             };
         }
 
-        private string GetPatientName(int patientId)
-        {
-            if(_patients.Count == 0)
-            {
-                _patients.AddRange(_crudContext.Patients.AsEnumerable());
-            }
-            var patient = _patients.FirstOrDefault(p => p.Id == patientId);
-            if(patient == null) return "None";
-            return patient.Name;
-       }
+       // private string GetPatientName(int patientId)
+       // {
+       //     if(_patients.Count == 0)
+       //     {
+       //         _patients.AddRange(_crudContext.Patients.AsEnumerable());
+       //     }
+       //     var patient = _patients.FirstOrDefault(p => p.Id == patientId);
+       //     if(patient == null) return "None";
+       //     return patient.Name;
+       //}
     }
 }

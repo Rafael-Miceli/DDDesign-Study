@@ -60,9 +60,6 @@ C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\AppointmentScheduling.Uni
 C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\AppointmentScheduling.UnitTests\bin\Debug\Telerik.JustMock.Container.dll
 C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\AppointmentScheduling.UnitTests\bin\Debug\Telerik.JustMock.dll
 C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\AppointmentScheduling.UnitTests\bin\Debug\StructureMap.dll
-C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\AppointmentScheduling.UnitTests\bin\Debug\nunit.core.interfaces.dll
-C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\AppointmentScheduling.UnitTests\bin\Debug\nunit.util.dll
-C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\AppointmentScheduling.UnitTests\bin\Debug\nunit.core.dll
 C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\AppointmentScheduling.UnitTests\bin\Debug\AppointmentScheduling.Core.pdb
 C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\AppointmentScheduling.UnitTests\bin\Debug\FrontDesk.SharedKernel.pdb
 C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\AppointmentScheduling.UnitTests\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
