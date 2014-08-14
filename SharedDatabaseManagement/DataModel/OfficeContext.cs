@@ -65,31 +65,31 @@ namespace VetOffice.SharedDatabase.DataModel
     private static IEnumerable<Client> CreateListOfClientsWithPatients()
     {
       var clientGraphs = new List<Client>();
-      var clientSmith = CreateClientWithPatient("Steve Smith", "Steve", "Mr.");
+      var clientSmith = CreateClient("Steve Smith", "Steve", "Mr.");
 
       clientGraphs.Add(clientSmith);
 
-      clientGraphs.Add(CreateClientWithPatient("Julia Lerman", "Julie", "Mrs."));
-      clientGraphs.Add(CreateClientWithPatient("Wes McClure", "Wes", "Mr"));
-      clientGraphs.Add(CreateClientWithPatient("Andrew Mallett", "Andrew", "Mr."));
-      clientGraphs.Add(CreateClientWithPatient("Brian Lagunas", "Brian", "Mr."));
-      clientGraphs.Add(CreateClientWithPatient("Corey Haines", "Corey", "Mr."));
-      clientGraphs.Add(CreateClientWithPatient("Reindert-Jan Ekker", "Reindert", "Mr."));
-      clientGraphs.Add(CreateClientWithPatient("Patrick Hynds", "Patrick", "Mr."));
-      clientGraphs.Add(CreateClientWithPatient("Lars Klint", "Lars", "Mr."));
-      clientGraphs.Add(CreateClientWithPatient("Joe Eames", "Joe", "Mr."));
-      clientGraphs.Add(CreateClientWithPatient("Joe Kunk", "Joe", "Mr."));
-      clientGraphs.Add(CreateClientWithPatient("Ross Bagurdes", "Ross", "Mr."));
-      clientGraphs.Add(CreateClientWithPatient("Patrick Neborg", "Patrick", "Mr."));
-      clientGraphs.Add(CreateClientWithPatient("David Mann", "David", "Mr."));
-      clientGraphs.Add(CreateClientWithPatient("Peter Mourfield", "Peter", "Mr."));
-      clientGraphs.Add(CreateClientWithPatient("Keith Harvey", "Keith", "Mr."));
+      clientGraphs.Add(CreateClient("Julia Lerman", "Julie", "Mrs."));
+      clientGraphs.Add(CreateClient("Wes McClure", "Wes", "Mr"));
+      clientGraphs.Add(CreateClient("Andrew Mallett", "Andrew", "Mr."));
+      clientGraphs.Add(CreateClient("Brian Lagunas", "Brian", "Mr."));
+      clientGraphs.Add(CreateClient("Corey Haines", "Corey", "Mr."));
+      clientGraphs.Add(CreateClient("Reindert-Jan Ekker", "Reindert", "Mr."));
+      clientGraphs.Add(CreateClient("Patrick Hynds", "Patrick", "Mr."));
+      clientGraphs.Add(CreateClient("Lars Klint", "Lars", "Mr."));
+      clientGraphs.Add(CreateClient("Joe Eames", "Joe", "Mr."));
+      clientGraphs.Add(CreateClient("Joe Kunk", "Joe", "Mr."));
+      clientGraphs.Add(CreateClient("Ross Bagurdes", "Ross", "Mr."));
+      clientGraphs.Add(CreateClient("Patrick Neborg", "Patrick", "Mr."));
+      clientGraphs.Add(CreateClient("David Mann", "David", "Mr."));
+      clientGraphs.Add(CreateClient("Peter Mourfield", "Peter", "Mr."));
+      clientGraphs.Add(CreateClient("Keith Harvey", "Keith", "Mr."));
       
       return clientGraphs;
 
     }
 
-    private static Client CreateClientWithPatient(string fullName, string preferredName, string salutation)
+    private static Client CreateClient(string fullName, string preferredName, string salutation)
     {
       var client = new Client
       {

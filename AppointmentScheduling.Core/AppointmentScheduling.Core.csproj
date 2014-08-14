@@ -42,7 +42,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Interfaces\IApplicationSettings.cs" />
-    <Compile Include="Interfaces\IRepository.cs" />
     <Compile Include="Interfaces\IScheduleRepository.cs" />
     <Compile Include="Interfaces\IAppointmentRepository.cs" />
     <Compile Include="Model\Events\AppointmentConfirmedEvent.cs" />
