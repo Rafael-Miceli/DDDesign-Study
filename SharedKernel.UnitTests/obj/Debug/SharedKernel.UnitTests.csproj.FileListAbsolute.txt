@@ -34,3 +34,15 @@ C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\SharedKernel.UnitTests\bi
 C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\SharedKernel.UnitTests\obj\Debug\SharedKernel.UnitTests.csprojResolveAssemblyReference.cache
 C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\SharedKernel.UnitTests\obj\Debug\SharedKernel.UnitTests.dll
 C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\SharedKernel.UnitTests\obj\Debug\SharedKernel.UnitTests.pdb
+C:\Users\Rafael\Documents\GitHub\DDDesign-Study\SharedKernel.UnitTests\bin\Debug\SharedKernel.UnitTests.dll
+C:\Users\Rafael\Documents\GitHub\DDDesign-Study\SharedKernel.UnitTests\bin\Debug\SharedKernel.UnitTests.pdb
+C:\Users\Rafael\Documents\GitHub\DDDesign-Study\SharedKernel.UnitTests\bin\Debug\FrontDesk.SharedKernel.dll
+C:\Users\Rafael\Documents\GitHub\DDDesign-Study\SharedKernel.UnitTests\bin\Debug\nunit.framework.dll
+C:\Users\Rafael\Documents\GitHub\DDDesign-Study\SharedKernel.UnitTests\bin\Debug\StructureMap.dll
+C:\Users\Rafael\Documents\GitHub\DDDesign-Study\SharedKernel.UnitTests\bin\Debug\FrontDesk.SharedKernel.pdb
+C:\Users\Rafael\Documents\GitHub\DDDesign-Study\SharedKernel.UnitTests\bin\Debug\nunit.framework.xml
+C:\Users\Rafael\Documents\GitHub\DDDesign-Study\SharedKernel.UnitTests\bin\Debug\StructureMap.pdb
+C:\Users\Rafael\Documents\GitHub\DDDesign-Study\SharedKernel.UnitTests\bin\Debug\StructureMap.xml
+C:\Users\Rafael\Documents\GitHub\DDDesign-Study\SharedKernel.UnitTests\obj\Debug\SharedKernel.UnitTests.csprojResolveAssemblyReference.cache
+C:\Users\Rafael\Documents\GitHub\DDDesign-Study\SharedKernel.UnitTests\obj\Debug\SharedKernel.UnitTests.dll
+C:\Users\Rafael\Documents\GitHub\DDDesign-Study\SharedKernel.UnitTests\obj\Debug\SharedKernel.UnitTests.pdb

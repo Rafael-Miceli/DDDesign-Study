@@ -1,5 +1,5 @@
 ﻿<div id="body">
-    <h2>Appointments</h2>
+    <h2>Agendamentos</h2>
     <div id="scheduler"></div>
     <div id="console" class="console"></div>
     <span id="notification"></span>
@@ -76,10 +76,7 @@
                             recurrenceRule: { from: "RecurrenceRule" },
                             recurrenceException: { from: "RecurrenceException" },
                             roomId: { from: "RoomId" },
-                            doctorId: { from: "DoctorId", nullable: true },
                             clientId: { from: "ClientId" },
-                            patientId: { from: "PatientId" },
-                            patientName: { from: "PatientName" },
                             isAllDay: { type: "boolean", from: "IsAllDay" },
                             appointmentType: { from: "AppointmentType" },
                             isConflict: { type: "boolean", from: "IsPotentiallyConflicting" },
@@ -162,13 +159,13 @@
                 endTime: new Date("2014/6/9 18:00"),
                 height: 750,
                 views: [
-                { type: "day", selected: true, allDaySlot: false, minorTickCount: 4 },
-                { type: "workWeek", allDaySlot: false, minorTickCount: 4 },
+                { type: "day", selected: true, title: "Dia", allDaySlot: false, minorTickCount: 4 },
+                { type: "workWeek", allDaySlot: false, title: "Semana", minorTickCount: 4 },
                 //{ type: "week", allDaySlot: false, minorTickCount: 4 },
                 //"month",
                 "agenda"
                 ],
-                workWeekEnd: 6,
+                workWeekEnd: 6,                
                 timezone: "America/Detroit",
                 dataSource: viewModel.schedulerData,
                 add: onAdd,
@@ -185,21 +182,22 @@
                 },
                 messages: {
                     editor: {
-                        editorTitle: "Appointment"
-                    }
+                        editorTitle: "Agendamento"
+                    },
+                    today: "Hoje"
                 },
                 resources: [
                     {
                         field: "roomId",
                         name: "Rooms",
                         dataSource: [
-                            { text: "Exam Room 1<br />Dr. Smith", value: 1, color: "#97C741" },
-                            { text: "Exam Room 2<br />Dr. Jones", value: 2, color: "#63AEB8" },
-                            { text: "Exam Room 3", value: 3, color: "#C163A2" },
-                            { text: "Exam Room 4", value: 4, color: "#ED652E" },
-                            { text: "Exam Room 5", value: 5, color: "#6380BA" }
+                            { text: "Sala 1", value: 1, color: "#97C741" },
+                            { text: "Sala 2", value: 2, color: "#63AEB8" },
+                            { text: "Sala 3", value: 3, color: "#C163A2" },
+                            { text: "Sala 4", value: 4, color: "#ED652E" },
+                            { text: "Sala 5", value: 5, color: "#6380BA" }
                         ],
-                        title: "Room"
+                        title: "Sala"
                     }
                 ]
             });

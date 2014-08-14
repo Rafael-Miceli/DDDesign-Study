@@ -28,3 +28,13 @@ C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\AppointmentScheduling.Cor
 C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\AppointmentScheduling.Core\obj\Debug\AppointmentScheduling.Core.csprojResolveAssemblyReference.cache
 C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\AppointmentScheduling.Core\obj\Debug\AppointmentScheduling.Core.dll
 C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\AppointmentScheduling.Core\obj\Debug\AppointmentScheduling.Core.pdb
+C:\Users\Rafael\Documents\GitHub\DDDesign-Study\AppointmentScheduling.Core\bin\Debug\AppointmentScheduling.Core.dll
+C:\Users\Rafael\Documents\GitHub\DDDesign-Study\AppointmentScheduling.Core\bin\Debug\AppointmentScheduling.Core.pdb
+C:\Users\Rafael\Documents\GitHub\DDDesign-Study\AppointmentScheduling.Core\bin\Debug\FrontDesk.SharedKernel.dll
+C:\Users\Rafael\Documents\GitHub\DDDesign-Study\AppointmentScheduling.Core\bin\Debug\StructureMap.dll
+C:\Users\Rafael\Documents\GitHub\DDDesign-Study\AppointmentScheduling.Core\bin\Debug\FrontDesk.SharedKernel.pdb
+C:\Users\Rafael\Documents\GitHub\DDDesign-Study\AppointmentScheduling.Core\bin\Debug\StructureMap.pdb
+C:\Users\Rafael\Documents\GitHub\DDDesign-Study\AppointmentScheduling.Core\bin\Debug\StructureMap.xml
+C:\Users\Rafael\Documents\GitHub\DDDesign-Study\AppointmentScheduling.Core\obj\Debug\AppointmentScheduling.Core.csprojResolveAssemblyReference.cache
+C:\Users\Rafael\Documents\GitHub\DDDesign-Study\AppointmentScheduling.Core\obj\Debug\AppointmentScheduling.Core.dll
+C:\Users\Rafael\Documents\GitHub\DDDesign-Study\AppointmentScheduling.Core\obj\Debug\AppointmentScheduling.Core.pdb

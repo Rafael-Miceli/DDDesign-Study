@@ -47,3 +47,15 @@ C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\ClientPatientManagement.U
 C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\ClientPatientManagement.UnitTests\obj\Debug\ClientPatientManagement.UnitTests.csprojResolveAssemblyReference.cache
 C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\ClientPatientManagement.UnitTests\obj\Debug\ClientPatientManagement.UnitTests.dll
 C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\ClientPatientManagement.UnitTests\obj\Debug\ClientPatientManagement.UnitTests.pdb
+C:\Users\Rafael\Documents\GitHub\DDDesign-Study\ClientPatientManagement.UnitTests\bin\Debug\ClientPatientManagement.UnitTests.dll
+C:\Users\Rafael\Documents\GitHub\DDDesign-Study\ClientPatientManagement.UnitTests\bin\Debug\ClientPatientManagement.UnitTests.pdb
+C:\Users\Rafael\Documents\GitHub\DDDesign-Study\ClientPatientManagement.UnitTests\bin\Debug\ClientPatientManagement.Core.dll
+C:\Users\Rafael\Documents\GitHub\DDDesign-Study\ClientPatientManagement.UnitTests\bin\Debug\FrontDesk.SharedKernel.dll
+C:\Users\Rafael\Documents\GitHub\DDDesign-Study\ClientPatientManagement.UnitTests\bin\Debug\StructureMap.dll
+C:\Users\Rafael\Documents\GitHub\DDDesign-Study\ClientPatientManagement.UnitTests\bin\Debug\ClientPatientManagement.Core.pdb
+C:\Users\Rafael\Documents\GitHub\DDDesign-Study\ClientPatientManagement.UnitTests\bin\Debug\FrontDesk.SharedKernel.pdb
+C:\Users\Rafael\Documents\GitHub\DDDesign-Study\ClientPatientManagement.UnitTests\bin\Debug\StructureMap.pdb
+C:\Users\Rafael\Documents\GitHub\DDDesign-Study\ClientPatientManagement.UnitTests\bin\Debug\StructureMap.xml
+C:\Users\Rafael\Documents\GitHub\DDDesign-Study\ClientPatientManagement.UnitTests\obj\Debug\ClientPatientManagement.UnitTests.csprojResolveAssemblyReference.cache
+C:\Users\Rafael\Documents\GitHub\DDDesign-Study\ClientPatientManagement.UnitTests\obj\Debug\ClientPatientManagement.UnitTests.dll
+C:\Users\Rafael\Documents\GitHub\DDDesign-Study\ClientPatientManagement.UnitTests\obj\Debug\ClientPatientManagement.UnitTests.pdb

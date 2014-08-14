@@ -1,50 +1,13 @@
 ﻿@{
-    ViewBag.Title = "Clients";
+    ViewBag.Title = "Clientes";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Clients</h2>
+<h2>Clientes</h2>
 <div id="grid"></div>
 @section scripts {
     <script>
-        var doctorList = [
-{
-    doctorId: 0,
-    Name: "N/A"
-},
-{
-    doctorId: 1,
-    Name: "Dr. Smith"
-},
-{
-    doctorId: 2,
-    Name: "Dr. Jones"
-},
-{
-    doctorId: 3,
-    Name: "Dr. Who"
-},
-        ]
-
-        function doctorDropDownEditor(container, options) {
-            $('<input data-bind="value:' + options.field + '"/>')
-            .appendTo(container)
-            .kendoDropDownList({
-                dataTextField: "Name",
-                dataValueField: "doctorId",
-                dataSource: doctorList,
-                optionLabel: ""
-            });
-        }
-
-        var getDoctorName = function (doctorId) {
-            if (!doctorId) doctorId = 0;
-            for (var idx = 0, length = doctorList.length; idx < length; idx++) {
-                if (doctorList[idx].doctorId === doctorId) {
-                    return doctorList[idx].Name;
-                }
-            }
-        }
+        
 
         $(function () {
 
@@ -103,24 +66,18 @@
                     },
                     {
                         field: "Salutation",
-                        title: "Salutation",
+                        title: "Título",
                         filterable: false
                     },
                     {
                         field: "FullName",
-                        title: "Full Name",
+                        title: "Nome completo",
                         filterable: true
                     },
                     {
                         field: "PreferredName",
-                        title: "Preferred Name",
+                        title: "Nome preferencial",
                         filterable: true
-                    },
-                    {
-                        field: "PreferredDoctorId",
-                        title: "Preferred Doctor",
-                        editor: doctorDropDownEditor,
-                        template: "#=getDoctorName(PreferredDoctorId)#"
                     },
                     {
                         command: ["edit", "destroy"], title: "&nbsp;", width: "210px"

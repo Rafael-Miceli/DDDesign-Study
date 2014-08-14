@@ -31,3 +31,13 @@ C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\ClientPatientManagement.C
 C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\ClientPatientManagement.Core\obj\Debug\ClientPatientManagement.Core.csprojResolveAssemblyReference.cache
 C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\ClientPatientManagement.Core\obj\Debug\ClientPatientManagement.Core.dll
 C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\ClientPatientManagement.Core\obj\Debug\ClientPatientManagement.Core.pdb
+C:\Users\Rafael\Documents\GitHub\DDDesign-Study\ClientPatientManagement.Core\bin\Debug\ClientPatientManagement.Core.dll
+C:\Users\Rafael\Documents\GitHub\DDDesign-Study\ClientPatientManagement.Core\bin\Debug\ClientPatientManagement.Core.pdb
+C:\Users\Rafael\Documents\GitHub\DDDesign-Study\ClientPatientManagement.Core\bin\Debug\FrontDesk.SharedKernel.dll
+C:\Users\Rafael\Documents\GitHub\DDDesign-Study\ClientPatientManagement.Core\bin\Debug\StructureMap.dll
+C:\Users\Rafael\Documents\GitHub\DDDesign-Study\ClientPatientManagement.Core\bin\Debug\FrontDesk.SharedKernel.pdb
+C:\Users\Rafael\Documents\GitHub\DDDesign-Study\ClientPatientManagement.Core\bin\Debug\StructureMap.pdb
+C:\Users\Rafael\Documents\GitHub\DDDesign-Study\ClientPatientManagement.Core\bin\Debug\StructureMap.xml
+C:\Users\Rafael\Documents\GitHub\DDDesign-Study\ClientPatientManagement.Core\obj\Debug\ClientPatientManagement.Core.csprojResolveAssemblyReference.cache
+C:\Users\Rafael\Documents\GitHub\DDDesign-Study\ClientPatientManagement.Core\obj\Debug\ClientPatientManagement.Core.dll
+C:\Users\Rafael\Documents\GitHub\DDDesign-Study\ClientPatientManagement.Core\obj\Debug\ClientPatientManagement.Core.pdb

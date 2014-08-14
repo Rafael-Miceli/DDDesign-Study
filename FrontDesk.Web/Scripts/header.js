@@ -52,7 +52,7 @@ $(document).ready(function () {
         select: onSelect,
         minLength: 1,
         filter: "contains",
-        placeholder: "Type client name...",
+        placeholder: "Digite o nome do cliente...",
         dataTextField: "FullName",
         dataValueField: "ClientId",
         highlightFirst: true,
