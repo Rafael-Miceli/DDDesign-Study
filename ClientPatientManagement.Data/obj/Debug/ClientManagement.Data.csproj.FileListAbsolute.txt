@@ -1,0 +1,16 @@
+C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\ClientPatientManagement.Data\bin\Debug\ClientPatientManagement.Data.dll
+C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\ClientPatientManagement.Data\bin\Debug\ClientPatientManagement.Data.pdb
+C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\ClientPatientManagement.Data\bin\Debug\ClientPatientManagement.Core.dll
+C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\ClientPatientManagement.Data\bin\Debug\EntityFramework.dll
+C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\ClientPatientManagement.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\ClientPatientManagement.Data\bin\Debug\FrontDesk.SharedKernel.dll
+C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\ClientPatientManagement.Data\bin\Debug\StructureMap.dll
+C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\ClientPatientManagement.Data\bin\Debug\ClientPatientManagement.Core.pdb
+C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\ClientPatientManagement.Data\bin\Debug\FrontDesk.SharedKernel.pdb
+C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\ClientPatientManagement.Data\bin\Debug\EntityFramework.xml
+C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\ClientPatientManagement.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\ClientPatientManagement.Data\bin\Debug\StructureMap.pdb
+C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\ClientPatientManagement.Data\bin\Debug\StructureMap.xml
+C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\ClientPatientManagement.Data\obj\Debug\ClientManagement.Data.csprojResolveAssemblyReference.cache
+C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\ClientPatientManagement.Data\obj\Debug\ClientPatientManagement.Data.dll
+C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\ClientPatientManagement.Data\obj\Debug\ClientPatientManagement.Data.pdb

@@ -10,7 +10,7 @@ namespace FrontDesk.Web.Hubs
         public void Handle(AppointmentUpdatedEvent args)
         {
             var hubContext = GlobalHost.ConnectionManager.GetHubContext<ScheduleHub>();
-            hubContext.Clients.All.showAlert(args.AppointmentUpdated.Title + " was updated");
+            hubContext.Clients.All.showAlert(args.AppointmentUpdated.Title + " foi atualizado");
         }
     }
 }

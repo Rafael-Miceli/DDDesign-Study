@@ -56,9 +56,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ClientPatientManagement.Core\ClientPatientManagement.Core.csproj">
+    <ProjectReference Include="..\ClientPatientManagement.Core\ClientManagement.Core.csproj">
       <Project>{760d74fc-2e7e-4d73-befa-43d8c5678892}</Project>
-      <Name>ClientPatientManagement.Core</Name>
+      <Name>ClientManagement.Core</Name>
     </ProjectReference>
     <ProjectReference Include="..\FrontDesk.SharedKernel\FrontDesk.SharedKernel.csproj">
       <Project>{EF61F90A-2E68-4930-B811-D1CFDB429A68}</Project>

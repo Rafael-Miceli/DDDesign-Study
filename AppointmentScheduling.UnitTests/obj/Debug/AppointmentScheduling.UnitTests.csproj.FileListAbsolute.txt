@@ -66,7 +66,6 @@ C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\AppointmentScheduling.Uni
 C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\AppointmentScheduling.UnitTests\bin\Debug\Microsoft.Practices.ServiceLocation.xml
 C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\AppointmentScheduling.UnitTests\bin\Debug\Microsoft.Practices.Unity.xml
 C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\AppointmentScheduling.UnitTests\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
-C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\AppointmentScheduling.UnitTests\bin\Debug\nunit.framework.xml
 C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\AppointmentScheduling.UnitTests\bin\Debug\StructureMap.pdb
 C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\AppointmentScheduling.UnitTests\bin\Debug\StructureMap.xml
 C:\Users\rafael.miceli\Documents\GitHub\DDDesign-Study\AppointmentScheduling.UnitTests\obj\Debug\AppointmentScheduling.UnitTests.csprojResolveAssemblyReference.cache
