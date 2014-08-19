@@ -16,11 +16,12 @@ namespace FrontDesk.Web.Controllers.Api
         {
             try
             {
-                IEnumerable<ClientViewModel> clientViewModels = null;
-
-                var clients = db.Clients.OrderBy(c => c.FullName);
-
-                return clientViewModels;
+                return db.Clients.Select(c => new ClientViewModel()
+                {
+                    ClientId = c.Id,
+                    FullName = c.FullName
+                })
+            .OrderBy(c => c.FullName);
 
             }
             catch (Exception)

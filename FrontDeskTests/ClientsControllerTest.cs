@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using FrontDesk.Web.Controllers.Api;
 using NUnit.Framework;
 using Assert = Microsoft.VisualStudio.TestTools.UnitTesting.Assert;
@@ -16,6 +17,7 @@ namespace FrontDeskTests
             var result = clientsController.Get();
 
             Assert.IsNotNull(result);
+            Assert.IsNotNull(result.First().FullName);
         }
     }
 }

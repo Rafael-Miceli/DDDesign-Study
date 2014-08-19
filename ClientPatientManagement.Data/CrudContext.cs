@@ -7,7 +7,6 @@ namespace ClientPatientManagement.Data
     public class CrudContext : DbContext
     {
      
-     
         public CrudContext()
         : base("name=OfficeContext")
         {

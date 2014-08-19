@@ -65,7 +65,7 @@ $(document).ready(function () {
         win.center();
         $("#patientSelection").hide();
         win.open();
-        //$("#client").data("kendoAutoComplete").focus();
+        $("#client").data("kendoAutoComplete").focus();
         $(".client-picker").css("border", "");
     });
 
